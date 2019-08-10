@@ -1,0 +1,753 @@
+########
+ Buscando a REGEX:rg: xxxx
+--------------
+Database: db_example
+Tabela: hibernate_sequence
+Tabela: user
+--------------
+Database: information_schema
+Tabela: CHARACTER_SETS
+Tabela: CHECK_CONSTRAINTS
+Tabela: COLLATION_CHARACTER_SET_APPLICABILITY
+Tabela: COLLATIONS
+Tabela: COLUMN_PRIVILEGES
+Tabela: COLUMN_STATISTICS
+Tabela: COLUMNS
+Tabela: ENGINES
+Tabela: EVENTS
+Tabela: FILES
+Tabela: INNODB_BUFFER_PAGE
+Tabela: INNODB_BUFFER_PAGE_LRU
+Tabela: INNODB_BUFFER_POOL_STATS
+Tabela: INNODB_CACHED_INDEXES
+Tabela: INNODB_CMP
+Tabela: INNODB_CMP_PER_INDEX
+Tabela: INNODB_CMP_PER_INDEX_RESET
+Tabela: INNODB_CMP_RESET
+Tabela: INNODB_CMPMEM
+Tabela: INNODB_CMPMEM_RESET
+Tabela: INNODB_COLUMNS
+Tabela: INNODB_DATAFILES
+Tabela: INNODB_FIELDS
+Tabela: INNODB_FOREIGN
+Tabela: INNODB_FOREIGN_COLS
+Tabela: INNODB_FT_BEING_DELETED
+Tabela: INNODB_FT_CONFIG
+Tabela: INNODB_FT_DEFAULT_STOPWORD
+Tabela: INNODB_FT_DELETED
+Tabela: INNODB_FT_INDEX_CACHE
+Tabela: INNODB_FT_INDEX_TABLE
+Tabela: INNODB_INDEXES
+Encontrei um campo: MERGE_THRESHOLD Minha busca:rg
+Tabela: INNODB_METRICS
+Tabela: INNODB_SESSION_TEMP_TABLESPACES
+Tabela: INNODB_TABLES
+Tabela: INNODB_TABLESPACES
+Tabela: INNODB_TABLESPACES_BRIEF
+Tabela: INNODB_TABLESTATS
+Tabela: INNODB_TEMP_TABLE_INFO
+Tabela: INNODB_TRX
+Tabela: INNODB_VIRTUAL
+Tabela: KEY_COLUMN_USAGE
+Tabela: KEYWORDS
+Tabela: OPTIMIZER_TRACE
+Tabela: PARAMETERS
+Tabela: PARTITIONS
+Tabela: PLUGINS
+Tabela: PROCESSLIST
+Tabela: PROFILING
+Tabela: REFERENTIAL_CONSTRAINTS
+Tabela: RESOURCE_GROUPS
+Tabela: ROUTINES
+Tabela: SCHEMA_PRIVILEGES
+Tabela: SCHEMATA
+Tabela: ST_GEOMETRY_COLUMNS
+Tabela: ST_SPATIAL_REFERENCE_SYSTEMS
+Encontrei um campo: ORGANIZATION Minha busca:rg
+Encontrei um campo: ORGANIZATION_COORDSYS_ID Minha busca:rg
+Tabela: ST_UNITS_OF_MEASURE
+Tabela: STATISTICS
+Tabela: TABLE_CONSTRAINTS
+Tabela: TABLE_PRIVILEGES
+Tabela: TABLES
+Tabela: TABLESPACES
+Tabela: TRIGGERS
+Tabela: USER_PRIVILEGES
+Tabela: VIEW_ROUTINE_USAGE
+Tabela: VIEW_TABLE_USAGE
+Tabela: VIEWS
+--------------
+Database: mysql
+Tabela: columns_priv
+Tabela: component
+Tabela: db
+Tabela: default_roles
+Tabela: engine_cost
+Tabela: func
+Tabela: general_log
+Encontrei um campo: argument Minha busca:rg
+Tabela: global_grants
+Tabela: gtid_executed
+Tabela: help_category
+Tabela: help_keyword
+Tabela: help_relation
+Tabela: help_topic
+Tabela: innodb_index_stats
+Tabela: innodb_table_stats
+Tabela: password_history
+Encontrei um campo: Password_timestamp Minha busca:password
+Encontrei um campo: Password Minha busca:password
+Tabela: plugin
+Tabela: procs_priv
+Tabela: proxies_priv
+Tabela: role_edges
+Tabela: server_cost
+Tabela: servers
+Encontrei um campo: Password Minha busca:password
+Tabela: slave_master_info
+Encontrei um campo: User_password Minha busca:password
+Tabela: slave_relay_log_info
+Tabela: slave_worker_info
+Tabela: slow_log
+Tabela: tables_priv
+Tabela: time_zone
+Tabela: time_zone_leap_second
+Tabela: time_zone_name
+Tabela: time_zone_transition
+Tabela: time_zone_transition_type
+Tabela: user
+Encontrei um campo: password_expired Minha busca:password
+Encontrei um campo: password_last_changed Minha busca:password
+Encontrei um campo: password_lifetime Minha busca:password
+Encontrei um campo: Password_reuse_history Minha busca:password
+Encontrei um campo: Password_reuse_time Minha busca:password
+Encontrei um campo: Password_require_current Minha busca:password
+--------------
+Database: performance_schema
+Tabela: accounts
+Tabela: cond_instances
+Tabela: data_lock_waits
+Tabela: data_locks
+Tabela: events_errors_summary_by_account_by_error
+Tabela: events_errors_summary_by_host_by_error
+Tabela: events_errors_summary_by_thread_by_error
+Tabela: events_errors_summary_by_user_by_error
+Tabela: events_errors_summary_global_by_error
+Tabela: events_stages_current
+Tabela: events_stages_history
+Tabela: events_stages_history_long
+Tabela: events_stages_summary_by_account_by_event_name
+Tabela: events_stages_summary_by_host_by_event_name
+Tabela: events_stages_summary_by_thread_by_event_name
+Tabela: events_stages_summary_by_user_by_event_name
+Tabela: events_stages_summary_global_by_event_name
+Tabela: events_statements_current
+Encontrei um campo: SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_histogram_by_digest
+Tabela: events_statements_histogram_global
+Tabela: events_statements_history
+Encontrei um campo: SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_history_long
+Encontrei um campo: SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_summary_by_account_by_event_name
+Encontrei um campo: SUM_SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_summary_by_digest
+Encontrei um campo: SUM_SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_summary_by_host_by_event_name
+Encontrei um campo: SUM_SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_summary_by_program
+Encontrei um campo: SUM_SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_summary_by_thread_by_event_name
+Encontrei um campo: SUM_SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_summary_by_user_by_event_name
+Encontrei um campo: SUM_SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_summary_global_by_event_name
+Encontrei um campo: SUM_SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_transactions_current
+Tabela: events_transactions_history
+Tabela: events_transactions_history_long
+Tabela: events_transactions_summary_by_account_by_event_name
+Tabela: events_transactions_summary_by_host_by_event_name
+Tabela: events_transactions_summary_by_thread_by_event_name
+Tabela: events_transactions_summary_by_user_by_event_name
+Tabela: events_transactions_summary_global_by_event_name
+Tabela: events_waits_current
+Tabela: events_waits_history
+Tabela: events_waits_history_long
+Tabela: events_waits_summary_by_account_by_event_name
+Tabela: events_waits_summary_by_host_by_event_name
+Tabela: events_waits_summary_by_instance
+Tabela: events_waits_summary_by_thread_by_event_name
+Tabela: events_waits_summary_by_user_by_event_name
+Tabela: events_waits_summary_global_by_event_name
+Tabela: file_instances
+Tabela: file_summary_by_event_name
+Tabela: file_summary_by_instance
+Tabela: global_status
+Tabela: global_variables
+Tabela: host_cache
+Tabela: hosts
+Tabela: keyring_keys
+Tabela: log_status
+Tabela: memory_summary_by_account_by_event_name
+Tabela: memory_summary_by_host_by_event_name
+Tabela: memory_summary_by_thread_by_event_name
+Tabela: memory_summary_by_user_by_event_name
+Tabela: memory_summary_global_by_event_name
+Tabela: metadata_locks
+Tabela: mutex_instances
+Tabela: objects_summary_global_by_type
+Tabela: performance_timers
+Tabela: persisted_variables
+Tabela: prepared_statements_instances
+Encontrei um campo: SUM_SORT_MERGE_PASSES Minha busca:rg
+Tabela: replication_applier_configuration
+Tabela: replication_applier_filters
+Tabela: replication_applier_global_filters
+Tabela: replication_applier_status
+Tabela: replication_applier_status_by_coordinator
+Tabela: replication_applier_status_by_worker
+Tabela: replication_connection_configuration
+Tabela: replication_connection_status
+Tabela: replication_group_member_stats
+Tabela: replication_group_members
+Tabela: rwlock_instances
+Tabela: session_account_connect_attrs
+Tabela: session_connect_attrs
+Tabela: session_status
+Tabela: session_variables
+Tabela: setup_actors
+Tabela: setup_consumers
+Tabela: setup_instruments
+Tabela: setup_objects
+Tabela: setup_threads
+Tabela: socket_instances
+Tabela: socket_summary_by_event_name
+Tabela: socket_summary_by_instance
+Tabela: status_by_account
+Tabela: status_by_host
+Tabela: status_by_thread
+Tabela: status_by_user
+Tabela: table_handles
+Tabela: table_io_waits_summary_by_index_usage
+Tabela: table_io_waits_summary_by_table
+Tabela: table_lock_waits_summary_by_table
+Tabela: threads
+Tabela: user_defined_functions
+Tabela: user_variables_by_thread
+Tabela: users
+Tabela: variables_by_thread
+Tabela: variables_info
+--------------
+Database: sys
+Tabela: host_summary
+Tabela: host_summary_by_file_io
+Tabela: host_summary_by_file_io_type
+Tabela: host_summary_by_stages
+Tabela: host_summary_by_statement_latency
+Tabela: host_summary_by_statement_type
+Tabela: innodb_buffer_stats_by_schema
+Tabela: innodb_buffer_stats_by_table
+Tabela: innodb_lock_waits
+Tabela: io_by_thread_by_latency
+Tabela: io_global_by_file_by_bytes
+Tabela: io_global_by_file_by_latency
+Tabela: io_global_by_wait_by_bytes
+Tabela: io_global_by_wait_by_latency
+Tabela: latest_file_io
+Tabela: memory_by_host_by_current_bytes
+Tabela: memory_by_thread_by_current_bytes
+Tabela: memory_by_user_by_current_bytes
+Tabela: memory_global_by_current_bytes
+Tabela: memory_global_total
+Tabela: metrics
+Tabela: processlist
+Tabela: ps_check_lost_instrumentation
+Tabela: schema_auto_increment_columns
+Tabela: schema_index_statistics
+Tabela: schema_object_overview
+Tabela: schema_redundant_indexes
+Tabela: schema_table_lock_waits
+Tabela: schema_table_statistics
+Tabela: schema_table_statistics_with_buffer
+Tabela: schema_tables_with_full_table_scans
+Tabela: schema_unused_indexes
+Tabela: session
+Tabela: session_ssl_status
+Tabela: statement_analysis
+Encontrei um campo: sort_merge_passes Minha busca:rg
+Tabela: statements_with_errors_or_warnings
+Tabela: statements_with_full_table_scans
+Tabela: statements_with_runtimes_in_95th_percentile
+Tabela: statements_with_sorting
+Encontrei um campo: sort_merge_passes Minha busca:rg
+Encontrei um campo: avg_sort_merges Minha busca:rg
+Tabela: statements_with_temp_tables
+Tabela: sys_config
+Tabela: user_summary
+Tabela: user_summary_by_file_io
+Tabela: user_summary_by_file_io_type
+Tabela: user_summary_by_stages
+Tabela: user_summary_by_statement_latency
+Tabela: user_summary_by_statement_type
+Tabela: version
+Tabela: wait_classes_global_by_avg_latency
+Tabela: wait_classes_global_by_latency
+Tabela: waits_by_host_by_latency
+Tabela: waits_by_user_by_latency
+Tabela: waits_global_by_latency
+Tabela: x$host_summary
+Tabela: x$host_summary_by_file_io
+Tabela: x$host_summary_by_file_io_type
+Tabela: x$host_summary_by_stages
+Tabela: x$host_summary_by_statement_latency
+Tabela: x$host_summary_by_statement_type
+Tabela: x$innodb_buffer_stats_by_schema
+Tabela: x$innodb_buffer_stats_by_table
+Tabela: x$innodb_lock_waits
+Tabela: x$io_by_thread_by_latency
+Tabela: x$io_global_by_file_by_bytes
+Tabela: x$io_global_by_file_by_latency
+Tabela: x$io_global_by_wait_by_bytes
+Tabela: x$io_global_by_wait_by_latency
+Tabela: x$latest_file_io
+Tabela: x$memory_by_host_by_current_bytes
+Tabela: x$memory_by_thread_by_current_bytes
+Tabela: x$memory_by_user_by_current_bytes
+Tabela: x$memory_global_by_current_bytes
+Tabela: x$memory_global_total
+Tabela: x$processlist
+Tabela: x$ps_digest_95th_percentile_by_avg_us
+Tabela: x$ps_digest_avg_latency_distribution
+Tabela: x$ps_schema_table_statistics_io
+Tabela: x$schema_flattened_keys
+Tabela: x$schema_index_statistics
+Tabela: x$schema_table_lock_waits
+Tabela: x$schema_table_statistics
+Tabela: x$schema_table_statistics_with_buffer
+Tabela: x$schema_tables_with_full_table_scans
+Tabela: x$session
+Tabela: x$statement_analysis
+Encontrei um campo: sort_merge_passes Minha busca:rg
+Tabela: x$statements_with_errors_or_warnings
+Tabela: x$statements_with_full_table_scans
+Tabela: x$statements_with_runtimes_in_95th_percentile
+Tabela: x$statements_with_sorting
+Encontrei um campo: sort_merge_passes Minha busca:rg
+Encontrei um campo: avg_sort_merges Minha busca:rg
+Tabela: x$statements_with_temp_tables
+Tabela: x$user_summary
+Tabela: x$user_summary_by_file_io
+Tabela: x$user_summary_by_file_io_type
+Tabela: x$user_summary_by_stages
+Tabela: x$user_summary_by_statement_latency
+Tabela: x$user_summary_by_statement_type
+Tabela: x$wait_classes_global_by_avg_latency
+Tabela: x$wait_classes_global_by_latency
+Tabela: x$waits_by_host_by_latency
+Tabela: x$waits_by_user_by_latency
+Tabela: x$waits_global_by_latency
+--------------
+Database: testes
+Tabela: tabela1
+Encontrei um campo: cpf Minha busca:cpf
+Encontrei um campo: Nome Minha busca:nome
+Tabela: tabela2
+Encontrei um campo: RG Minha busca:rg
+--------------
+Database: testes2
+Tabela: new_table
+Encontrei um campo: NOME Minha busca:nome
+########
+ Buscando a REGEX:cpf: '^[0-9]{3}.[0-9]{3}.[0-9]{3}.[0-9]{2}$'
+--------------
+Database: db_example
+Tabela: hibernate_sequence
+Tabela: user
+--------------
+Database: information_schema
+Tabela: CHARACTER_SETS
+Tabela: CHECK_CONSTRAINTS
+Tabela: COLLATION_CHARACTER_SET_APPLICABILITY
+Tabela: COLLATIONS
+Tabela: COLUMN_PRIVILEGES
+Tabela: COLUMN_STATISTICS
+Tabela: COLUMNS
+Tabela: ENGINES
+Tabela: EVENTS
+Tabela: FILES
+Tabela: INNODB_BUFFER_PAGE
+Tabela: INNODB_BUFFER_PAGE_LRU
+Tabela: INNODB_BUFFER_POOL_STATS
+Tabela: INNODB_CACHED_INDEXES
+Tabela: INNODB_CMP
+Tabela: INNODB_CMP_PER_INDEX
+Tabela: INNODB_CMP_PER_INDEX_RESET
+Tabela: INNODB_CMP_RESET
+Tabela: INNODB_CMPMEM
+Tabela: INNODB_CMPMEM_RESET
+Tabela: INNODB_COLUMNS
+Tabela: INNODB_DATAFILES
+Tabela: INNODB_FIELDS
+Tabela: INNODB_FOREIGN
+Tabela: INNODB_FOREIGN_COLS
+Tabela: INNODB_FT_BEING_DELETED
+Tabela: INNODB_FT_CONFIG
+Tabela: INNODB_FT_DEFAULT_STOPWORD
+Tabela: INNODB_FT_DELETED
+Tabela: INNODB_FT_INDEX_CACHE
+Tabela: INNODB_FT_INDEX_TABLE
+Tabela: INNODB_INDEXES
+Encontrei um campo: MERGE_THRESHOLD Minha busca:rg
+Tabela: INNODB_METRICS
+Tabela: INNODB_SESSION_TEMP_TABLESPACES
+Tabela: INNODB_TABLES
+Tabela: INNODB_TABLESPACES
+Tabela: INNODB_TABLESPACES_BRIEF
+Tabela: INNODB_TABLESTATS
+Tabela: INNODB_TEMP_TABLE_INFO
+Tabela: INNODB_TRX
+Tabela: INNODB_VIRTUAL
+Tabela: KEY_COLUMN_USAGE
+Tabela: KEYWORDS
+Tabela: OPTIMIZER_TRACE
+Tabela: PARAMETERS
+Tabela: PARTITIONS
+Tabela: PLUGINS
+Tabela: PROCESSLIST
+Tabela: PROFILING
+Tabela: REFERENTIAL_CONSTRAINTS
+Tabela: RESOURCE_GROUPS
+Tabela: ROUTINES
+Tabela: SCHEMA_PRIVILEGES
+Tabela: SCHEMATA
+Tabela: ST_GEOMETRY_COLUMNS
+Tabela: ST_SPATIAL_REFERENCE_SYSTEMS
+Encontrei um campo: ORGANIZATION Minha busca:rg
+Encontrei um campo: ORGANIZATION_COORDSYS_ID Minha busca:rg
+Tabela: ST_UNITS_OF_MEASURE
+Tabela: STATISTICS
+Tabela: TABLE_CONSTRAINTS
+Tabela: TABLE_PRIVILEGES
+Tabela: TABLES
+Tabela: TABLESPACES
+Tabela: TRIGGERS
+Tabela: USER_PRIVILEGES
+Tabela: VIEW_ROUTINE_USAGE
+Tabela: VIEW_TABLE_USAGE
+Tabela: VIEWS
+--------------
+Database: mysql
+Tabela: columns_priv
+Tabela: component
+Tabela: db
+Tabela: default_roles
+Tabela: engine_cost
+Tabela: func
+Tabela: general_log
+Encontrei um campo: argument Minha busca:rg
+Tabela: global_grants
+Tabela: gtid_executed
+Tabela: help_category
+Tabela: help_keyword
+Tabela: help_relation
+Tabela: help_topic
+Tabela: innodb_index_stats
+Tabela: innodb_table_stats
+Tabela: password_history
+Encontrei um campo: Password_timestamp Minha busca:password
+Encontrei um campo: Password Minha busca:password
+Tabela: plugin
+Tabela: procs_priv
+Tabela: proxies_priv
+Tabela: role_edges
+Tabela: server_cost
+Tabela: servers
+Encontrei um campo: Password Minha busca:password
+Tabela: slave_master_info
+Encontrei um campo: User_password Minha busca:password
+Tabela: slave_relay_log_info
+Tabela: slave_worker_info
+Tabela: slow_log
+Tabela: tables_priv
+Tabela: time_zone
+Tabela: time_zone_leap_second
+Tabela: time_zone_name
+Tabela: time_zone_transition
+Tabela: time_zone_transition_type
+Tabela: user
+Encontrei um campo: password_expired Minha busca:password
+Encontrei um campo: password_last_changed Minha busca:password
+Encontrei um campo: password_lifetime Minha busca:password
+Encontrei um campo: Password_reuse_history Minha busca:password
+Encontrei um campo: Password_reuse_time Minha busca:password
+Encontrei um campo: Password_require_current Minha busca:password
+--------------
+Database: performance_schema
+Tabela: accounts
+Tabela: cond_instances
+Tabela: data_lock_waits
+Tabela: data_locks
+Tabela: events_errors_summary_by_account_by_error
+Tabela: events_errors_summary_by_host_by_error
+Tabela: events_errors_summary_by_thread_by_error
+Tabela: events_errors_summary_by_user_by_error
+Tabela: events_errors_summary_global_by_error
+Tabela: events_stages_current
+Tabela: events_stages_history
+Tabela: events_stages_history_long
+Tabela: events_stages_summary_by_account_by_event_name
+Tabela: events_stages_summary_by_host_by_event_name
+Tabela: events_stages_summary_by_thread_by_event_name
+Tabela: events_stages_summary_by_user_by_event_name
+Tabela: events_stages_summary_global_by_event_name
+Tabela: events_statements_current
+Encontrei um campo: SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_histogram_by_digest
+Descoberta REGEX: RegEx:cpf Campo:BUCKET_TIMER_LOW : 304850
+Descoberta REGEX: RegEx:cpf Campo:BUCKET_TIMER_HIGH : 304850
+Tabela: events_statements_histogram_global
+Descoberta REGEX: RegEx:cpf Campo:BUCKET_TIMER_LOW : 50
+Descoberta REGEX: RegEx:cpf Campo:BUCKET_TIMER_HIGH : 50
+Tabela: events_statements_history
+Encontrei um campo: SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_history_long
+Encontrei um campo: SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_summary_by_account_by_event_name
+Descoberta REGEX: RegEx:cpf Campo:SUM_TIMER_WAIT : 3
+Descoberta REGEX: RegEx:cpf Campo:SUM_LOCK_TIME : 1
+Encontrei um campo: SUM_SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_summary_by_digest
+Descoberta REGEX: RegEx:cpf Campo:SUM_TIMER_WAIT : 18
+Encontrei um campo: SUM_SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_summary_by_host_by_event_name
+Descoberta REGEX: RegEx:cpf Campo:SUM_TIMER_WAIT : 3
+Descoberta REGEX: RegEx:cpf Campo:SUM_LOCK_TIME : 1
+Encontrei um campo: SUM_SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_summary_by_program
+Descoberta REGEX: RegEx:cpf Campo:SUM_TIMER_WAIT : 1
+Descoberta REGEX: RegEx:cpf Campo:SUM_STATEMENTS_WAIT : 1
+Encontrei um campo: SUM_SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_summary_by_thread_by_event_name
+Descoberta REGEX: RegEx:cpf Campo:SUM_TIMER_WAIT : 2
+Encontrei um campo: SUM_SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_summary_by_user_by_event_name
+Descoberta REGEX: RegEx:cpf Campo:SUM_TIMER_WAIT : 3
+Descoberta REGEX: RegEx:cpf Campo:SUM_LOCK_TIME : 1
+Encontrei um campo: SUM_SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_statements_summary_global_by_event_name
+Descoberta REGEX: RegEx:cpf Campo:SUM_TIMER_WAIT : 3
+Descoberta REGEX: RegEx:cpf Campo:SUM_LOCK_TIME : 1
+Encontrei um campo: SUM_SORT_MERGE_PASSES Minha busca:rg
+Tabela: events_transactions_current
+Tabela: events_transactions_history
+Tabela: events_transactions_history_long
+Tabela: events_transactions_summary_by_account_by_event_name
+Tabela: events_transactions_summary_by_host_by_event_name
+Tabela: events_transactions_summary_by_thread_by_event_name
+Tabela: events_transactions_summary_by_user_by_event_name
+Tabela: events_transactions_summary_global_by_event_name
+Tabela: events_waits_current
+Tabela: events_waits_history
+Tabela: events_waits_history_long
+Tabela: events_waits_summary_by_account_by_event_name
+Tabela: events_waits_summary_by_host_by_event_name
+Tabela: events_waits_summary_by_instance
+Tabela: events_waits_summary_by_thread_by_event_name
+Descoberta REGEX: RegEx:cpf Campo:AVG_TIMER_WAIT : 1
+Tabela: events_waits_summary_by_user_by_event_name
+Tabela: events_waits_summary_global_by_event_name
+Descoberta REGEX: RegEx:cpf Campo:AVG_TIMER_WAIT : 1
+Tabela: file_instances
+Tabela: file_summary_by_event_name
+Tabela: file_summary_by_instance
+Tabela: global_status
+Tabela: global_variables
+Tabela: host_cache
+Tabela: hosts
+Tabela: keyring_keys
+Tabela: log_status
+Tabela: memory_summary_by_account_by_event_name
+Tabela: memory_summary_by_host_by_event_name
+Tabela: memory_summary_by_thread_by_event_name
+Tabela: memory_summary_by_user_by_event_name
+Tabela: memory_summary_global_by_event_name
+Tabela: metadata_locks
+Tabela: mutex_instances
+Tabela: objects_summary_global_by_type
+Descoberta REGEX: RegEx:cpf Campo:SUM_TIMER_WAIT : 1
+Tabela: performance_timers
+Tabela: persisted_variables
+Tabela: prepared_statements_instances
+Encontrei um campo: SUM_SORT_MERGE_PASSES Minha busca:rg
+Tabela: replication_applier_configuration
+Tabela: replication_applier_filters
+Tabela: replication_applier_global_filters
+Tabela: replication_applier_status
+Tabela: replication_applier_status_by_coordinator
+Tabela: replication_applier_status_by_worker
+Tabela: replication_connection_configuration
+Tabela: replication_connection_status
+Tabela: replication_group_member_stats
+Tabela: replication_group_members
+Tabela: rwlock_instances
+Tabela: session_account_connect_attrs
+Tabela: session_connect_attrs
+Tabela: session_status
+Tabela: session_variables
+Tabela: setup_actors
+Tabela: setup_consumers
+Tabela: setup_instruments
+Tabela: setup_objects
+Tabela: setup_threads
+Tabela: socket_instances
+Tabela: socket_summary_by_event_name
+Tabela: socket_summary_by_instance
+Tabela: status_by_account
+Tabela: status_by_host
+Tabela: status_by_thread
+Tabela: status_by_user
+Tabela: table_handles
+Tabela: table_io_waits_summary_by_index_usage
+Tabela: table_io_waits_summary_by_table
+Tabela: table_lock_waits_summary_by_table
+Tabela: threads
+Tabela: user_defined_functions
+Tabela: user_variables_by_thread
+Tabela: users
+Tabela: variables_by_thread
+Tabela: variables_info
+--------------
+Database: sys
+Tabela: host_summary
+Tabela: host_summary_by_file_io
+Tabela: host_summary_by_file_io_type
+Tabela: host_summary_by_stages
+Tabela: host_summary_by_statement_latency
+Tabela: host_summary_by_statement_type
+Tabela: innodb_buffer_stats_by_schema
+Tabela: innodb_buffer_stats_by_table
+Tabela: innodb_lock_waits
+Tabela: io_by_thread_by_latency
+Tabela: io_global_by_file_by_bytes
+Tabela: io_global_by_file_by_latency
+Tabela: io_global_by_wait_by_bytes
+Tabela: io_global_by_wait_by_latency
+Tabela: latest_file_io
+Tabela: memory_by_host_by_current_bytes
+Tabela: memory_by_thread_by_current_bytes
+Tabela: memory_by_user_by_current_bytes
+Tabela: memory_global_by_current_bytes
+Tabela: memory_global_total
+Tabela: metrics
+Tabela: processlist
+Tabela: ps_check_lost_instrumentation
+Tabela: schema_auto_increment_columns
+Tabela: schema_index_statistics
+Tabela: schema_object_overview
+Tabela: schema_redundant_indexes
+Tabela: schema_table_lock_waits
+Tabela: schema_table_statistics
+Tabela: schema_table_statistics_with_buffer
+Tabela: schema_tables_with_full_table_scans
+Tabela: schema_unused_indexes
+Tabela: session
+Tabela: session_ssl_status
+Tabela: statement_analysis
+Encontrei um campo: sort_merge_passes Minha busca:rg
+Tabela: statements_with_errors_or_warnings
+Tabela: statements_with_full_table_scans
+Tabela: statements_with_runtimes_in_95th_percentile
+Tabela: statements_with_sorting
+Encontrei um campo: sort_merge_passes Minha busca:rg
+Encontrei um campo: avg_sort_merges Minha busca:rg
+Tabela: statements_with_temp_tables
+Tabela: sys_config
+Tabela: user_summary
+Tabela: user_summary_by_file_io
+Tabela: user_summary_by_file_io_type
+Tabela: user_summary_by_stages
+Tabela: user_summary_by_statement_latency
+Tabela: user_summary_by_statement_type
+Tabela: version
+Tabela: wait_classes_global_by_avg_latency
+Tabela: wait_classes_global_by_latency
+Tabela: waits_by_host_by_latency
+Tabela: waits_by_user_by_latency
+Tabela: waits_global_by_latency
+Tabela: x$host_summary
+Tabela: x$host_summary_by_file_io
+Tabela: x$host_summary_by_file_io_type
+Tabela: x$host_summary_by_stages
+Tabela: x$host_summary_by_statement_latency
+Descoberta REGEX: RegEx:cpf Campo:lock_latency : 1
+Tabela: x$host_summary_by_statement_type
+Descoberta REGEX: RegEx:cpf Campo:total_latency : 4
+Descoberta REGEX: RegEx:cpf Campo:lock_latency : 1
+Tabela: x$innodb_buffer_stats_by_schema
+Tabela: x$innodb_buffer_stats_by_table
+Tabela: x$innodb_lock_waits
+Tabela: x$io_by_thread_by_latency
+Tabela: x$io_global_by_file_by_bytes
+Tabela: x$io_global_by_file_by_latency
+Tabela: x$io_global_by_wait_by_bytes
+Tabela: x$io_global_by_wait_by_latency
+Tabela: x$latest_file_io
+Tabela: x$memory_by_host_by_current_bytes
+Tabela: x$memory_by_thread_by_current_bytes
+Tabela: x$memory_by_user_by_current_bytes
+Tabela: x$memory_global_by_current_bytes
+Tabela: x$memory_global_total
+Tabela: x$processlist
+Tabela: x$ps_digest_95th_percentile_by_avg_us
+Tabela: x$ps_digest_avg_latency_distribution
+Tabela: x$ps_schema_table_statistics_io
+Tabela: x$schema_flattened_keys
+Tabela: x$schema_index_statistics
+Tabela: x$schema_table_lock_waits
+Tabela: x$schema_table_statistics
+Tabela: x$schema_table_statistics_with_buffer
+Tabela: x$schema_tables_with_full_table_scans
+Tabela: x$session
+Tabela: x$statement_analysis
+Descoberta REGEX: RegEx:cpf Campo:total_latency : 19
+Encontrei um campo: sort_merge_passes Minha busca:rg
+Tabela: x$statements_with_errors_or_warnings
+Tabela: x$statements_with_full_table_scans
+Descoberta REGEX: RegEx:cpf Campo:total_latency : 16
+Tabela: x$statements_with_runtimes_in_95th_percentile
+Descoberta REGEX: RegEx:cpf Campo:total_latency : 13
+Tabela: x$statements_with_sorting
+Descoberta REGEX: RegEx:cpf Campo:total_latency : 7
+Encontrei um campo: sort_merge_passes Minha busca:rg
+Encontrei um campo: avg_sort_merges Minha busca:rg
+Tabela: x$statements_with_temp_tables
+Descoberta REGEX: RegEx:cpf Campo:total_latency : 8
+Tabela: x$user_summary
+Tabela: x$user_summary_by_file_io
+Tabela: x$user_summary_by_file_io_type
+Tabela: x$user_summary_by_stages
+Tabela: x$user_summary_by_statement_latency
+Descoberta REGEX: RegEx:cpf Campo:lock_latency : 1
+Tabela: x$user_summary_by_statement_type
+Descoberta REGEX: RegEx:cpf Campo:total_latency : 4
+Descoberta REGEX: RegEx:cpf Campo:lock_latency : 1
+Tabela: x$wait_classes_global_by_avg_latency
+Descoberta REGEX: RegEx:cpf Campo:total_latency : 1
+Tabela: x$wait_classes_global_by_latency
+Descoberta REGEX: RegEx:cpf Campo:total_latency : 1
+Tabela: x$waits_by_host_by_latency
+Tabela: x$waits_by_user_by_latency
+Tabela: x$waits_global_by_latency
+--------------
+Database: testes
+Tabela: tabela1
+Encontrei um campo: cpf Minha busca:cpf
+Descoberta REGEX: RegEx:cpf Campo:cpf : 2
+Encontrei um campo: Nome Minha busca:nome
+Tabela: tabela2
+Encontrei um campo: RG Minha busca:rg
+--------------
+Database: testes2
+Tabela: new_table
+Encontrei um campo: NOME Minha busca:nome
